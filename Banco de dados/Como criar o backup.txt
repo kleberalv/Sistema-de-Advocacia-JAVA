@@ -1,0 +1,8 @@
+		-- Como criar o backup --
+
+cd\
+cd xampp\mysql\bin
+
+mysqldump -u root -p -c --databases (nome do banco) > (letra do pendrive):(nome da pasta)\(nomedobanco)_(dataatual).sql
+
+password: (senha presente no seu banco. Caso não tenha, dar enter).
